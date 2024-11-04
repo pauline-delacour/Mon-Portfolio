@@ -1,0 +1,60 @@
+[
+	{
+		"id": "1",
+		"title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"HTML",
+			"CSS"
+		]
+	},
+
+    {
+		"id": "2",
+		"title": "Créez une page web dynamique avec Javascript",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"HTML",
+			"CSS",
+            "Javascript"
+		]
+	},
+    {
+		"id": "3",
+		"title": "Débuggez et optimisez un site de photographe",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"Lightouse",
+			"Wave"
+		]
+	},
+    {
+		"id": "4",
+		"title": "Créez une application web de location immobiliére avec React",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"React",
+			"HTML",
+            "CSS"
+		]
+	},
+    {
+		"id": "5",
+		"title": "Développez le backe-end d'un site de notation de livres",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"Lightouse",
+			"Wave"
+		]
+	},
+    {
+		"id": "6",
+		"title": "Planifiez le développement du site de votre client",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"technologies": [
+			"Kanban",
+			"Agile"
+		]
+	}
+    
+]
