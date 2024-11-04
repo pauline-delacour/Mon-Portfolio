@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+body{
+    margin: auto;
+    background-color: #BFB5DC;
+
+}
+
+/*Colors*/
+$colorViolet: #29225D;
+$colorPink: #BFB5DC;
+
+/*Police*/
+$font-family-base: "Oxamium",sans-serif;
+$font-family-fantasy: "Indie Flower"; 
+$font-size-xsmall: 12px;
+$font-size-small: 14px;
+$font-size-base: 18px;
+$font-size-medium: 24px;
+$font-size-large: 26px;
+$font-size-xlarge: 36px;
+$font-size-xxlarge: 48px;
+$font-size-xxxlarge: 288px;
+$font-style: bold;
+
+/* card*/
+$dimensionCard: 340px;
+$borderRadiusCard: 10px;
+$card-width: 240px;
+$card-height: 240px;
+$gap: 20px;
+$column: 3;
+$rows: 2;
+

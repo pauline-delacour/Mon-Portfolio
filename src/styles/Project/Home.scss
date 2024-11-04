@@ -1,0 +1,21 @@
+@use "../variable.scss";
+
+.card-content {
+    background-color: variable.$colorViolet;
+    padding-top: 40px;
+    padding-bottom: 40px;
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin: 30px 100px 30px 100px;
+
+}
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .cards{
+       grid-template-columns: 1fr;
+       
+    }
+}

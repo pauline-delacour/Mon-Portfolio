@@ -1,0 +1,31 @@
+@use "../variable.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 50px 30px 50px;
+
+    .Logo h1{
+        color: variable.$colorViolet;
+        font-family: variable.$font-family-fantasy;
+        font-size: variable.$font-size-xxlarge;
+        margin: 0;
+
+    }
+  
+    .nav-link {
+      display: flex;
+      gap: 30px;
+      font-family: variable.$font-family-base;
+    }
+    .nav-link a {
+      text-decoration: none;
+      color: variable.$colorViolet;
+      font-size: variable.$font-size-medium;
+    }
+    .nav-link a.active {
+      text-decoration: underline;
+      text-decoration-color: variable.$colorViolet;
+    }
+  }
