@@ -6,7 +6,7 @@ const Card = ({ id, title, cover }) => {
   const navigate = useNavigate();
 
   const handleNavigation = () => {
-    navigate(`/logement/${id}`);
+    navigate(`/projet/${id}`);
   };
 
   return (
