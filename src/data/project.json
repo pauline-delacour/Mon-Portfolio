@@ -1,18 +1,25 @@
 [
 	{
 		"id": "1",
-		"title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 1: Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"cover": "/assets/imagep1.webp",
+		"pictures": "/assets/imagep1.webp",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"description":"J'ai créé une page d'accueil moderne et responsive pour une agence de voyage en utilisant HTML et CSS. Ce projet incluait l'intégration des maquettes Figma pour mobile, tablette, et desktop, en veillant à ce que le design soit harmonieux et optimisé pour toutes les tailles d'écran. ",
 		"technologies": [
 			"HTML",
-			"CSS"
+			"CSS",
+			"Figma"
 		]
 	},
 
     {
 		"id": "2",
-		"title": "Créez une page web dynamique avec Javascript",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 2: Créez une page web dynamique avec Javascript",
+		"cover": "/assets/imagep2.webp",
+		"pictures": "/assets/imagep2.webp",
+		"lien": "lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"description":"Développement d'une page web interactive en JavaScript pour présenter les réalisations d'une architecte d'intérieur. Le travail incluait une page de connexion, la création de modale, et la communication avec une API. Ce projet a renforcé mes compétences en JavaScript, en gestion d'API et en création d’interfaces dynamiques." ,
 		"technologies": [
 			"HTML",
 			"CSS",
@@ -21,8 +28,11 @@
 	},
     {
 		"id": "3",
-		"title": "Débuggez et optimisez un site de photographe",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 3: Débuggez et optimisez un site de photographe",
+		"cover": "/assets/imagep3.webp",
+		"pictures": "/assets/imagep3.webp",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"description": "Ce projet a pour but d'optimisé le référencement d'un site en identifiant des problèmes de performance avec Lighthouse et Wave. J'ai proposé et appliqués des améliorations pour la vitesse de chargement et la structure du code. Ce projet m'a permis de renforcer mes compétences en SEO et en performance web",
 		"technologies": [
 			"Lightouse",
 			"Wave"
@@ -30,30 +40,43 @@
 	},
     {
 		"id": "4",
-		"title": "Créez une application web de location immobiliére avec React",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 4: Créez une application web de location immobiliére avec React",
+		"cover": "/assets/imagep4.webp",
+		"pictures": "/assets/imagep4.webp",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"description": "J'ai implémenté le front-end d'une application en utilisant React et React Router, créant ainsi une expérience utilisateur moderne et réactive. En m'appuyant sur le principe des composants de React, facilite la gestion des données et la navigation entre les différentes pages.",
 		"technologies": [
 			"React",
-			"HTML",
-            "CSS"
+			"React-Router",
+			"JSX",
+            "SASS"
 		]
 	},
     {
 		"id": "5",
-		"title": "Développez le backe-end d'un site de notation de livres",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 5: Développez le back-end d'un site de notation de livres avec Express et NodeJs",
+		"cover": "/assets/imagep5.webp",
+		"pictures": "/assets/imagep5.webp",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"description": "Développement du back-end avec Express et MongoDB. Utilisation des opération CRUD pour gérer les livres et les notations, et implémentation d'un systéme d'auhtentifications sécurisé pour les utilisateurs.",
 		"technologies": [
-			"Lightouse",
-			"Wave"
+			"Express",
+			"NodeJs",
+			"MongoDB",
+			"API RESTful",
+			"JWT (Json Web Token)"
 		]
 	},
     {
 		"id": "6",
-		"title": "Planifiez le développement du site de votre client",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"title": "Projet 6: Planifiez le développement du site de votre client",
+		"cover": "/assets/imagep6.webp",
+		"pictures":  "/assets/imagep6.webp",
+		"lien": "Lien Kanban: https://www.notion.so/1265f0963b3780669581fea111d1ec4d?v=1265f0963b378095b0ea000c120c8eb5",
+		"description":"Dans ce projet, j'ai planifié le développement d'un site web en me basant sur une maquette fournie. J'ai utilisé la méthode Agile Scrum pour organiser le travail et favoriser la collaboration au sein de l'équipe. Grâce à un tableau Kanban, j'ai visualisé l'avancement des tâches et assuré un suivi structuré, tout en élaborant des documents de spécifications techniques pour clarifier les besoins fonctionnels.",
 		"technologies": [
 			"Kanban",
-			"Agile"
+			"Méthodologie Agile/scrum"
 		]
 	}
     
