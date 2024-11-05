@@ -6,9 +6,6 @@ import Card from"../components/Cards";
 const Home = () => {
   return (
     <div className="content">
-        <div className="portfolio">
-            {/* <h2>Portfolio</h2> */}
-        </div>
         <div className="card-content">
         <div className="cards">
           {projet.map((projet) => (
