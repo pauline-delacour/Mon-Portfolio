@@ -1,0 +1,23 @@
+@use "../variable.scss";
+
+.project-image{
+    display: flex;
+    justify-content: center;
+    .project-cover{
+        height: 400px;
+        border-radius: 10px;
+        border: 1px solid variable.$colorViolet;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    .project-image{
+        display: flex;
+        justify-content: center;
+        .project-cover{
+            height: 150px;
+            border-radius: 10px;
+            border: 1px solid variable.$colorViolet;
+        }
+    }
+}

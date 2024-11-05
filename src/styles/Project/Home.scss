@@ -1,21 +1,28 @@
 @use "../variable.scss";
 
 .card-content {
-    background-color: variable.$colorViolet;
-    padding-top: 40px;
-    padding-bottom: 40px;
-.cards{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: variable.$colorPink;
+  .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
     margin: 30px 100px 30px 100px;
-
-}
+  }
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-    .cards{
-       grid-template-columns: 1fr;
-       
+  .card-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .cards {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      gap: 30px;
+      margin: 30px;
     }
+  }
 }

@@ -1,31 +1,72 @@
 @use "../variable.scss";
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 50px 45px 50px;
+  transition: all 0.3s ease;
+
+  &.sticky {
+    position: fixed; 
+    top: 0; // Rester en haut de la page
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Ajoute une ombre pour le relief
+    z-index: 1000; // Assure que le header reste au-dessus des autres éléments
+    margin: 10px 50px;
+    height: 0px;
+}
+
+  .Logo h1 {
+    color: variable.$colorViolet;
+    font-family: variable.$font-family-fantasy;
+    font-size: variable.$font-size-xxlarge;
+    margin: 0;
+  }
+
+  .nav-link {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 45px 50px 30px 50px;
+    gap: 30px;
+    font-family: variable.$font-family;
+  }
+  .nav-link a {
+    text-decoration: none;
+    color: variable.$colorViolet;
+    font-size: variable.$font-size-medium;
+    transition: transform 0.3s ease;
 
-    .Logo h1{
-        color: variable.$colorViolet;
-        font-family: variable.$font-family-fantasy;
-        font-size: variable.$font-size-xxlarge;
-        margin: 0;
-
+    &:hover {
+      transform: scale(1.2);
     }
-  
-    .nav-link {
-      display: flex;
-      gap: 30px;
-      font-family: variable.$font-family-base;
+  }
+  .nav-link a.active {
+    text-decoration: underline;
+    text-decoration-color: variable.$colorViolet;
+    font-size: variable.$font-size-large;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+    .Logo h1 {
+      font-size: variable.$font-size-large;
     }
     .nav-link a {
       text-decoration: none;
       color: variable.$colorViolet;
-      font-size: variable.$font-size-medium;
+      font-size: variable.$font-size-xsmall;
     }
     .nav-link a.active {
-      text-decoration: underline;
-      text-decoration-color: variable.$colorViolet;
+      font-size: variable.$font-size-small;
     }
   }
+}

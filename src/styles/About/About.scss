@@ -1,0 +1,10 @@
+@use "../variable.scss";
+
+.apropos{
+    padding: 200px;
+    p{
+        font-size: variable.$font-size-base;
+        font-family: variable.$font-family;
+        color: variable.$colorViolet;
+    }
+}
