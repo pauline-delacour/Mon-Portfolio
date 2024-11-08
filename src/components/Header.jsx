@@ -43,12 +43,6 @@ const Header = () => {
         >
           A propos
         </Link>
-        <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? "active" : ""}
-        >
-          Contact
-        </Link>
       </div>
     </nav>
   );
