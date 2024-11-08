@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../assets/test1.webp";
+import Photo from "../assets/paulinedelacour.webp";
 const About = () => {
   return (
     <article className="apropos">
