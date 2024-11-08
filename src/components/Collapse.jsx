@@ -13,14 +13,16 @@ const Collapse = ({ title, content }) => {
   return (
     <div className="collapse">
       <button className="collapse-header" onClick={toggleCollapse}>
-        <span className={`arrow ${isOpen ? "open" : ""}`}>{title}</span>
+        <span className={`arrow ${isOpen ? "open" : ""}`}>{title}</span> 
+         {/* La classe 'open' est ajoutée si isOpen est vrai */}
         <FaChevronUp className={`chevron ${isOpen ? "open" : ""}`} />
       </button>
       <div className={`collapse-content ${isOpen ? "open" : ""}`}>
-        {isOpen && // Vérifie si isOpen est vrai
+          {/* Si isOpen est vrai, afficher le contenu */}
+        {isOpen && 
           (Array.isArray(content) ? ( // Si content est un tableau
             <ul>
-              {content.map((item, index) => (
+              {content.map((item, index) => ( //Afficher chaque élement du tableau 
                 <li key={index}>{item}</li>
               ))}
             </ul>
