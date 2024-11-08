@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Projet from "./pages/Projet";
-import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import "./styles/main.scss";
 
 const rootElement = document.getElementById("root");
@@ -18,10 +18,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/projet/:id" element={<Projet />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   </StrictMode>
 );
