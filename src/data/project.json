@@ -4,7 +4,7 @@
 		"title": "Projet 1: Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "/assets/imagep1.webp",
 		"pictures": "/assets/imagep1.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Projet-2_Booki",
 		"description":"J'ai créé une page d'accueil moderne et responsive pour une agence de voyage en utilisant HTML et CSS. Ce projet incluait l'intégration des maquettes Figma pour mobile, tablette, et desktop, en veillant à ce que le design soit harmonieux et optimisé pour toutes les tailles d'écran. L'un dés defis majeurs a été d'assurer une disposition responsive avec l'utilisation des media queries, la gestion d'images et leurs optimisations. ",
 		"technologies": [
 			"HTML",
@@ -19,7 +19,7 @@
 		"title": "Projet 2: Créez une page web dynamique avec Javascript",
 		"cover": "/assets/imagep2.webp",
 		"pictures": "/assets/imagep2.webp",
-		"lien": "lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"lien": "lien repo: https://github.com/pauline-delacour/Portfolio-architecte-sophie-bluel",
 		"description":"Développement d'une page web interactive en JavaScript pour présenter les réalisations d'une architecte d'intérieur. Le travail incluait une page de connexion, la création de modale, et la communication avec une API. Ce projet a renforcé mes compétences en JavaScript, en gestion d'API et en création d’interfaces dynamiques. Le défi ici a été de gérer l'authentification avec la page de connexion et de garantir une communication fluide avec l'API pour récupérer et afficher les données en temps réel." ,
 		"technologies": [
 			"HTML",
@@ -33,7 +33,7 @@
 		"title": "Projet 3: Débuggez et optimisez un site de photographe",
 		"cover": "/assets/imagep3.webp",
 		"pictures": "/assets/imagep3.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Nina-Carducci-Dev",
 		"description": "Ce projet a pour but d'optimisé le référencement d'un site en identifiant des problèmes de performance avec Lighthouse et Wave. J'ai proposé et appliqués des améliorations pour la vitesse de chargement et la structure du code. Ce projet m'a permis de renforcer mes compétences en SEO et en performance web. Le principal défi a été d'identifier avec précision ce qui affecte la performance du site et de mettre en place des solutiosn ciblées afin d'ameliorer la vitesse de chargement et l'accessibilité",
 		"technologies": [
 			"Lightouse",
@@ -46,7 +46,7 @@
 		"title": "Projet 4: Créez une application web de location immobiliére avec React",
 		"cover": "/assets/imagep4.webp",
 		"pictures": "/assets/imagep4.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"lien": "Lien repo: https://github.com/pauline-delacour/Kasa",
 		"description": "J'ai implémenté le front-end d'une application en utilisant React et React Router, créant ainsi une expérience utilisateur moderne et réactive. En m'appuyant sur le principe des composants de React, facilite la gestion des données et la navigation entre les différentes pages. Le défi pour ce projet a été de gerer efficacement les états de l'application sans dupliquer les données. J'ai résolu ce probléme en utilisant les composants et les hooks de React, ce qui m'a permis de simplifié la gestion des données ",
 		"technologies": [
 			"React",
@@ -61,7 +61,7 @@
 		"title": "Projet 5: Développez le back-end d'un site de notation de livres avec Express et NodeJs",
 		"cover": "/assets/imagep5.webp",
 		"pictures": "/assets/imagep5.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Mon-Portfolio",
+		"lien": "Lien repo: https://github.com/pauline-delacour/P6--Mon-vieux-grimoire",
 		"description": "Développement du back-end avec Express et MongoDB. Utilisation des opération CRUD pour gérer les livres et les notations, et implémentation d'un systéme d'auhtentifications sécurisé pour les utilisateurs. Le principal défi était de garantir la sécurité des données utilisateurs tout en permettant une gestion fluide des libres et des notations, j'ai résolu ce probléme avec l'utilisation des Tokens JWT pour l'authentification ",
 		"technologies": [
 			"Express",
