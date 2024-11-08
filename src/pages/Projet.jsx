@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import project from "../data/project.json";
 import Collapse from "../components/Collapse";
 import ProjectImage from "../components/ProjectImage";
 import { useParams } from "react-router-dom";
 
 const Projet = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { id } = useParams();
 
   const projet = project.find((element) => element.id === id);
