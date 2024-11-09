@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link as RouterLink, useLocation } from "react-router-dom"; // Renommage de Link de react-router-dom
+import { Link as ScrollLink } from "react-scroll"; 
 
 const Header = () => {
   //Initialisation de useLocation qui contient les information de l'URL actuelle
@@ -26,6 +27,7 @@ const Header = () => {
 
   // Vérifie si l'utilisateur est sur une page où le header ne doit pas être sticky
   const isStickyDisabled = location.pathname === "/";
+  
 
   return (
     //Ajout de la classe isSticky si la valeur isSticky est vrai et que l'effet est autorisé
@@ -35,16 +37,25 @@ const Header = () => {
       </div>
       <div className="nav-link">
         {/* Lien vers la page d'accueil avec une classe active si l'utilisateur est sur la page d'accueil */}
-        <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+        <RouterLink to="/" className={location.pathname === "/" ? "active" : ""}>
           Mes projets
-        </Link>
+        </RouterLink>
         {/* Lien vers la page "A propos" avec une classe active si l'utilisateur est sur cette page */}
-        <Link
+        <RouterLink
           to="/about"
           className={location.pathname === "/about" ? "active" : ""}
         >
           A propos
-        </Link>
+        </RouterLink>
+        {/*Au clic sur contact, rediriger vers le bas de page ou se trouve les informations de contact */}
+        <ScrollLink
+          to="footer" 
+          smooth={true} // Ajoute le défilement fluide
+          duration={500} // Durée de l'animation en ms
+          className="contact-link"
+        >
+          Contact
+        </ScrollLink>
       </div>
     </nav>
   );
