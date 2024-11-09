@@ -1,10 +1,10 @@
 import React from "react";
-import Photo from "../assets/paulinedelacour.webp";
+
 const About = () => {
   return (
     <article className="apropos">
       <div>
-        <img src={Photo} alt="Pauline Delacour " />
+        <img src={`${process.env.PUBLIC_URL}/assets/paulinedelacour.webp`} alt="Pauline Delacour " />
         <p>Moi, c'est Pauline ! </p>
         <p>
           J'ai 29 ans et suis actuellement en reconversion professionnelle vers

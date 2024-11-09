@@ -12,7 +12,7 @@ const Card = ({ id, title, cover }) => {
 
   return (
     <div className="card" onClick={handleNavigation}> {/* Au clic sur la card, on appelle handleNavigation pour changer de page. */}
-      <img src={cover} alt={title} className="card-cover" />
+      <img src={process.env.PUBLIC_URL + cover} alt={title} className="card-cover" />
       <span className="card-title">{title}</span>
     </div>
   );

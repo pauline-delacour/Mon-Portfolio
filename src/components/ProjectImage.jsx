@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const ProjectImage = ({ cover, title }) => {
     return (
         <div className="project-image">
-            <img src={cover} alt={`Projet ${title}`} className="project-cover" />
+            <img src={process.env.PUBLIC_URL + cover} alt={`Projet ${title}`} className="project-cover" />
         </div>
     );
 };
