@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.baf6df6c.css",
+    "main.js": "/static/js/main.cc1d6ad1.js",
+    "static/media/paulinedelacour.webp": "/static/media/paulinedelacour.38f8af0fbd13b4dae835.webp",
+    "index.html": "/index.html",
+    "main.baf6df6c.css.map": "/static/css/main.baf6df6c.css.map",
+    "main.cc1d6ad1.js.map": "/static/js/main.cc1d6ad1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baf6df6c.css",
+    "static/js/main.cc1d6ad1.js"
+  ]
+}
