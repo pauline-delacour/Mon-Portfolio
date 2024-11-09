@@ -33,20 +33,6 @@
 }
 @media (min-width: 375px) and (max-width: 768px) {
   .card {
-    .card-cover {
-      height: 335px;
-    }
-    .card-title {
-      width: 95%;
-      bottom: 10px;
-      left: 10px;
-      font-size: variable.$font-size-base;
-      padding: 5px;
-    }
-  }
-}
-@media (min-width: 375px) and (max-width: 768px) {
-  .card {
     &:hover {
       border: 1px solid variable.$colorViolet;
       font-weight: normal;
