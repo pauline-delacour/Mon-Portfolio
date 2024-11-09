@@ -37,6 +37,7 @@
     color: variable.$colorViolet;
     font-size: variable.$font-size-medium;
     transition: transform 0.3s ease;
+    cursor: pointer;
 
     &:hover {
       transform: scale(1.2);
@@ -50,7 +51,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;
