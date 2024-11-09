@@ -7,7 +7,9 @@
   text-align: center;
   margin: 50px 0px 50px 0px;
   gap: 10px;
-
+  .icone-contact{
+    color: variable.$colorViolet;
+  }
   svg {
     width: 20px;
     height: 20px;
@@ -17,6 +19,15 @@
     font-size: variable.$font-size-small;
     color: variable.$colorViolet;
     font-weight: bold;
+  }
+  .profil-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     a{
+      color: variable.$colorViolet;
+     }
   }
   .contact-link {
     text-decoration: none;
@@ -32,8 +43,18 @@
   padding: 50px 0px 50px 0px;
   background-color: variable.$colorViolet;
   color: white;
-  .contact {
+  .contact{
     color: white;
+  }
+  .icone-contact {
+    color: white;
+  }
+  .profil-contact{
+    gap: 20px;
+    
+    svg{
+      color: white;
+    }
   }
   .mail {
     color: white;
