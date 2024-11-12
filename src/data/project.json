@@ -4,8 +4,8 @@
 		"title": "Projet 1: Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "/assets/imagep1.webp",
 		"pictures": "/assets/imagep1.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Projet-2_Booki",
-		"description":"J'ai créé une page d'accueil moderne et responsive pour une agence de voyage en utilisant HTML et CSS. Ce projet incluait l'intégration des maquettes Figma pour mobile, tablette, et desktop, en veillant à ce que le design soit harmonieux et optimisé pour toutes les tailles d'écran. L'un dés defis majeurs a été d'assurer une disposition responsive avec l'utilisation des media queries, la gestion d'images et leurs optimisations. ",
+		"lien": "https://github.com/pauline-delacour/Projet-2_Booki",
+		"description": "J'ai créé une page d'accueil moderne et responsive pour une agence de voyage en utilisant HTML et CSS. Ce projet incluait l'intégration des maquettes Figma pour mobile, tablette, et desktop. Les obstacles rencontrés ont été le fait d'assurer que la page soit parfaitement responsive et s'adapte harmonieusement aux tailles d'écran. Pour surmonter ces obstacles j'ai utilisé les média queries pour ajuster les élèments en fonction de la résolution et j'ai appliqué des tailles en pourcentage pour que les éléments s'adaptent proportionnellement à l'écran.",
 		"technologies": [
 			"HTML",
 			"CSS",
@@ -19,8 +19,8 @@
 		"title": "Projet 2: Créez une page web dynamique avec Javascript",
 		"cover": "/assets/imagep2.webp",
 		"pictures": "/assets/imagep2.webp",
-		"lien": "lien repo: https://github.com/pauline-delacour/Portfolio-architecte-sophie-bluel",
-		"description":"Développement d'une page web interactive en JavaScript pour présenter les réalisations d'une architecte d'intérieur. Le travail incluait une page de connexion, la création de modale, et la communication avec une API. Ce projet a renforcé mes compétences en JavaScript, en gestion d'API et en création d’interfaces dynamiques. Le défi ici a été de gérer l'authentification avec la page de connexion et de garantir une communication fluide avec l'API pour récupérer et afficher les données en temps réel." ,
+		"lien": "https://github.com/pauline-delacour/Portfolio-architecte-sophie-bluel",
+		"description":"Développement d'une page web interactive en JavaScript pour présenter les réalisations d'une architecte d'intérieur. Le travail incluait une page de connexion, la création de modales, et la communication avec une API. Ce projet a renforcé mes compétences en JavaScript, en gestion d'API et en création d’interfaces dynamiques. Le principal défi a été de gérer l'authentification sur la page de connexion et de garantir une communication fluide avec l'API pour récupérer et afficher les données en temps réel. Pour résoudre ces problématiques, j'ai utilisé des sessions sécurisées avec JWT pour gérer l'authentification, et j’ai mis en place des requêtes asynchrones avec fetch pour communiquer avec l'API, tout en ajoutant une gestion des erreurs pour une meilleure expérience utilisateur" ,
 		"technologies": [
 			"HTML",
 			"CSS",
@@ -33,8 +33,8 @@
 		"title": "Projet 3: Débuggez et optimisez un site de photographe",
 		"cover": "/assets/imagep3.webp",
 		"pictures": "/assets/imagep3.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Nina-Carducci-Dev",
-		"description": "Ce projet a pour but d'optimisé le référencement d'un site en identifiant des problèmes de performance avec Lighthouse et Wave. J'ai proposé et appliqués des améliorations pour la vitesse de chargement et la structure du code. Ce projet m'a permis de renforcer mes compétences en SEO et en performance web. Le principal défi a été d'identifier avec précision ce qui affecte la performance du site et de mettre en place des solutiosn ciblées afin d'ameliorer la vitesse de chargement et l'accessibilité",
+		"lien": "https://github.com/pauline-delacour/Nina-Carducci-Dev",
+		"description": "Ce projet avait pour objectif d'optimiser le référencement d'un site en identifiant et corrigeant les problèmes de performance avec les outils Lighthouse et Wave. J’ai proposé et appliqué des améliorations pour optimiser la vitesse de chargement et la structure du code, renforçant ainsi mes compétences en SEO et en performance web. Le principal défi a été de comprendre pourquoi le carrousel ne fonctionnait pas correctement, d'autant plus que le code utilisait jQuery, une librairie que je ne maîtrisais pas. En utilisant les DevTools, j’ai pu identifier que le problème venait de l’incrémentation et de la décrémentation des index au mauvais endroit, ce qui m’a permis de corriger le carrousel et d’optimiser la fluidité du site",
 		"technologies": [
 			"Lightouse",
 			"Wave",
@@ -46,8 +46,8 @@
 		"title": "Projet 4: Créez une application web de location immobiliére avec React",
 		"cover": "/assets/imagep4.webp",
 		"pictures": "/assets/imagep4.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/Kasa",
-		"description": "J'ai implémenté le front-end d'une application en utilisant React et React Router, créant ainsi une expérience utilisateur moderne et réactive. En m'appuyant sur le principe des composants de React, facilite la gestion des données et la navigation entre les différentes pages. Le défi pour ce projet a été de gerer efficacement les états de l'application sans dupliquer les données. J'ai résolu ce probléme en utilisant les composants et les hooks de React, ce qui m'a permis de simplifié la gestion des données ",
+		"lien": "https://github.com/pauline-delacour/Kasa",
+		"description": "J'ai implémenté le front-end d'une application en utilisant React et React Router, créant ainsi une expérience utilisateur moderne et réactive. En m'appuyant sur le principe des composants de React, facilite la gestion des données et la navigation entre les différentes pages. Le principal obstacle pour ce projet a été de gérer efficacement les états de l'application sans dupliquer les données. J'ai résolu ce probléme en utilisant les composants et les hooks de React, ce qui m'a permis de simplifié la gestion des données ",
 		"technologies": [
 			"React",
 			"React-Router",
@@ -61,8 +61,8 @@
 		"title": "Projet 5: Développez le back-end d'un site de notation de livres avec Express et NodeJs",
 		"cover": "/assets/imagep5.webp",
 		"pictures": "/assets/imagep5.webp",
-		"lien": "Lien repo: https://github.com/pauline-delacour/P6--Mon-vieux-grimoire",
-		"description": "Développement du back-end avec Express et MongoDB. Utilisation des opération CRUD pour gérer les livres et les notations, et implémentation d'un systéme d'auhtentifications sécurisé pour les utilisateurs. Le principal défi était de garantir la sécurité des données utilisateurs tout en permettant une gestion fluide des libres et des notations, j'ai résolu ce probléme avec l'utilisation des Tokens JWT pour l'authentification ",
+		"lien": "https://github.com/pauline-delacour/P6--Mon-vieux-grimoire",
+		"description": "J'ai développé le back-end d'une application en utilisant Express et MongoDB, avec des opérations CRUD pour gérer les livres et les notations, ainsi qu'un système d'authentification sécurisé pour les utilisateurs. Le principal défi rencontré a été la gestion de fichiers portant des noms identiques, comme ceux contenant la logique métier et les routes, ce qui créait de la confusion. J'ai surmonté ce problème en réorganisant la structure du projet, en séparant clairement chaque fichier et en utilisant des noms explicites ",
 		"technologies": [
 			"Express",
 			"NodeJs",
@@ -77,8 +77,8 @@
 		"title": "Projet 6: Planifiez le développement du site de votre client",
 		"cover": "/assets/imagep6.webp",
 		"pictures":  "/assets/imagep6.webp",
-		"lien": "Lien Kanban: https://www.notion.so/1265f0963b3780669581fea111d1ec4d?v=1265f0963b378095b0ea000c120c8eb5",
-		"description":"Dans ce projet, j'ai planifié le développement d'un site web en me basant sur une maquette fournie. J'ai utilisé la méthode Agile Scrum pour organiser le travail et favoriser la collaboration au sein de l'équipe. Grâce à un tableau Kanban, j'ai visualisé l'avancement des tâches et assuré un suivi structuré, tout en élaborant des documents de spécifications techniques pour clarifier les besoins fonctionnels.",
+		"lien": "https://www.notion.so/1265f0963b3780669581fea111d1ec4d?v=1265f0963b378095b0ea000c120c8eb5",
+		"description":"Dans ce projet, j'ai planifié le développement d'un site web en me basant sur une maquette fournie. J'ai utilisé la méthode Agile Scrum pour organiser le travail et favoriser la gestion autonome du projet. Grâce à un tableau Kanban, j'ai pu visualiser l'avancement des tâches et assurer un suivi structuré, tout en élaborant des documents de spécifications techniques pour clarifier les besoins fonctionnels. La principale problématique a été de découper les user stories en tâches réalisables. Pour surmonter cette difficulté, j'ai décomposé chaque fonctionnalité en sous-tâches claires et gérables, ce qui m'a permis de progresser de manière fluide.",
 		"technologies": [
 			"Kanban",
 			"Méthodologie Agile/scrum"
