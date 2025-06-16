@@ -11,7 +11,7 @@ const About = () => {
         <img src={`${process.env.PUBLIC_URL}/assets/paulinedelacour.webp`} alt="Pauline Delacour " />
         <p>Moi, c'est Pauline ! </p>
         <p>
-          J'ai 29 ans et suis actuellement en reconversion professionnelle vers
+          J'ai 30 ans et suis actuellement en reconversion professionnelle vers
           le <b>développement web</b> grâce à une formation d'OpenClassrooms.
         </p>
 
