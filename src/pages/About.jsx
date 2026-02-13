@@ -42,8 +42,8 @@ const About = () => {
           repousser mes compétences, je me suis tournée vers le développement
           web pour construire des projets uniques et captivants. Au cours de ma
           formation, j'ai acquis des compétences en <b>HTML, CSS, JavaScript, et
-          React</b>. Je me suis également découvert un fort
-          attrait pour <b>la planification, le suivie d'avancement et la collaboration</b>. Pour moi,
+          React</b>. <br/> Je me suis également découvert un fort attrait pour 
+          <b> la planification, le suivi d'avancement et la collaboration</b>. <br/>Pour moi,
           l'expérience en entreprise est la meilleure façon de progresser, en
           appliquant et consolidant mes connaissances.
         </p>
