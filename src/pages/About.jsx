@@ -42,9 +42,8 @@ const About = () => {
           repousser mes compétences, je me suis tournée vers le développement
           web pour construire des projets uniques et captivants. Au cours de ma
           formation, j'ai acquis des compétences en <b>HTML, CSS, JavaScript, et
-          React</b>, des technologies que je suis impatiente d’approfondir au sein
-          d’une entreprise en <b>alternance</b>. Je me suis également découvert un fort
-          attrait pour le <b>UX design</b> et <b>le maquettage sur Figma</b>. Pour moi,
+          React</b>. Je me suis également découvert un fort
+          attrait pour <b>la planification, le suivie d'avancement et la collaboration</b>. Pour moi,
           l'expérience en entreprise est la meilleure façon de progresser, en
           appliquant et consolidant mes connaissances.
         </p>
